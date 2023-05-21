@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    
+    <style>
+        Body{
+            text-align: center;
+            background-image: linear-gradient(to right,rgb(100, 189, 244),rgb(96, 15, 81),rgb(241, 38, 184));
+
+        }
+            
+            .grid  {
+            display: grid;
+            background-color:rgb(100, 189, 244) ;
+            text-align: center;
+             grid-template-columns: auto auto auto;
+            padding:70px;
+            row-gap:150px;
+            
+            text-align: center;
+            justify-content: space-around;
+            height: 100%;
+            background-image: linear-gradient(to right,rgb(100, 189, 244),rgb(96, 15, 81),rgb(241, 38, 184));
+             }
+        .grid-item{
+            height: 200px;
+            width: 260px;
+            background-color:rgb(245, 245, 245);
+            border-radius: 20%;
+            text-align: center;
+            height:200px;
+            width: 200px;
+            padding: 30px;
+        }
+        .btn{
+            background-color:black;
+            color:white;
+        }
+    </style>
+    
+</head>
+<body style="text-align: center;">
+    <h1>OUR SERVICES</h1>
+    <div class="grid">
+    <div class="grid-item"><img src="icons8-html5-40.png">
+    <h1>HTML 5</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    <a href="#" class="btn">read more</a></div>
+    <div class="grid-item"><img src="icons8-css3-40.png">
+    <h1>CSS 3</h1>
+    <p>Voluptatum sint eaharum,praesentium ad</p>
+    <a href="s" class="btn">read more</a></div>
+    <div class="grid-item"><img src="icons8-javascript-40.png">
+    <h1>JAVASCRIPT</h1>
+    <P>quia laborum accusamus aliquam.</P>
+    <a href="s" class="btn">read more</a></div>
+    <div class="grid-item"><img src="icons8-sass-40.png">
+    <h1>SASS</h1>
+    <P>Fugit earum ut sit illum accusasus alias eveniet amet</P>
+    <a href="s" class="btn">read more</a></div>
+    <div class="grid-item"><img src="icons8-jquery-is-a-javascript-library-designed-to-simplify-html-40.png">
+    <h1>JQUERY</h1>
+    <P>blanditiis totam molestiae recusandae!</P>
+    <a href="s" class="btn">read more</a></div>
+    <div class="grid-item"><img src="icons8-react-40.png">
+    <h1>REACT</h1>
+    <P>tenetur minus perspiciatis asperiores deleniti?</P>
+    <a href="s" class="btn">read more</a></div>
+    
+</div>
+</body>
+</html>
